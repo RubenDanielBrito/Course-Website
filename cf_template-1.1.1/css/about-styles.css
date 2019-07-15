@@ -1,0 +1,69 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.container
+{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header
+{
+  text-align: center;
+  margin: 50px;
+}
+
+.column
+{
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%;
+  padding: 0 20px;
+}
+
+.main-text
+{
+  padding-top: 60px;
+  clear: both;
+}
+
+.image img
+{
+  width: 100%
+}
+
+#skill-list
+{
+  margin-left: 50px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3
+{
+  font-family: verdana, Helvetica, Arial, sans-serif;
+}
+
+p,
+li
+{
+  font-family: Georgia, 'Literata', serif;
+}
+
+
+.introduction p
+{
+  font-size: 3em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.skills h3
+{
+  text-align: center;
+  text-transform: uppercase;
+}
