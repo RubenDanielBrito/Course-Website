@@ -1,0 +1,32 @@
+*
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url(../img/book.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: #34495e;
+}
+
+.header
+{
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.contacts
+{
+  font-family: 'Literata', serif;
+  text-align: center;
+  color: white;
+}
+
+.home
+{
+  text-align: left;
+}
