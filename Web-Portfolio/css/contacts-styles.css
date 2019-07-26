@@ -1,0 +1,53 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+nav
+{
+  position: fixed;
+  background-color: black;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+}
+
+a
+{
+  color: blue;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+nav a:hover
+{
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+  padding: 3.9vh 0;
+}
+
+body
+{
+  background-image: url(../img/book.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: #34495e;
+}
+
+.header
+{
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.contacts
+{
+  font-family: 'Literata', serif;
+  text-align: center;
+  color: white;
+}
